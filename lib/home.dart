@@ -1,5 +1,3 @@
-// import 'dart:html';
-
 import 'package:camera/camera.dart';
 import 'package:face/main.dart';
 import 'package:flutter/material.dart';
@@ -73,7 +71,10 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Live Emotion Detector App'),
+        centerTitle: true,
+        backgroundColor: Colors.green[700],
+        elevation: null,
+        title: Text('Leaf Disease Detector'),
       ),
       body: Column(
         children: [

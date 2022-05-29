@@ -1,16 +1,14 @@
 // import 'package:/home.dart';
 import 'package:camera/camera.dart';
-import 'package:face/home.dart';
+import 'package:face/landingPage.dart';
 import 'package:flutter/material.dart';
-// import 'dart:html';
-
 
 List<CameraDescription>? cameras;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   cameras = await availableCameras();
-   runApp(new MyApp());
+  runApp(new MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primaryColor: Colors.deepPurple),
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: landingPage(),
     );
   }
 }
