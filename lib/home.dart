@@ -96,17 +96,6 @@ class _HomeState extends State<Home> {
             style: TextStyle(
                 fontWeight: FontWeight.bold, fontSize: 20, color: Colors.black),
           ),
-          Text(
-            'Hello',
-            style: TextStyle(
-              color: Colors.black,
-            ),
-          ),
-          // Text(
-          //   output,
-          //   style: TextStyle(
-          //       fontWeight: FontWeight.bold, fontSize: 20, color: Colors.black),
-          // ),
         ],
       ),
     );
